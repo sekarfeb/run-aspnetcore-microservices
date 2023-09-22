@@ -8,6 +8,12 @@
     <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
 
+ <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+    <AspNetCoreModuleName>AspNetCoreModule</AspNetCoreModuleName>
+ </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="5.0.1" />
     <PackageReference Include="AspNetCore.HealthChecks.Uris" Version="5.0.1" />
